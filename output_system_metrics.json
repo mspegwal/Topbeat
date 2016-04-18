@@ -1,0 +1,375 @@
+{
+  "took" : 97,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 10,
+    "successful" : 10,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 616691,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "system",
+      "_id" : "AVQjHWoYDGpxQgsFgZ9M",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.394Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 24167546,
+          "user_p" : 0.2769,
+          "nice" : 0,
+          "system" : 9411593,
+          "system_p" : 0.0801,
+          "idle" : 180675937,
+          "iowait" : 0,
+          "irq" : 0,
+          "softirq" : 0,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0,
+          "load5" : 0,
+          "load15" : 0
+        },
+        "mem" : {
+          "total" : 4053950464,
+          "used" : 3169361920,
+          "free" : 884588544,
+          "used_p" : 0.78,
+          "actual_used" : 937910272,
+          "actual_free" : 1209442304,
+          "actual_used_p" : 0.23
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoYDGpxQgsFgZ9P",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.430Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files\\Synaptics\\SynTP\\SynTPEnh.exe\"",
+          "cpu" : {
+            "user" : 21328,
+            "user_p" : 0.0203,
+            "system" : 7343,
+            "total" : 28671,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 6082560,
+            "rss" : 18366464,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "SynTPEnh.exe",
+          "pid" : 7392,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoYDGpxQgsFgZ9T",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.469Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\Explorer.EXE",
+          "cpu" : {
+            "user" : 13875,
+            "user_p" : 0,
+            "system" : 20156,
+            "total" : 34031,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 68288512,
+            "rss" : 115597312,
+            "rss_p" : 0.03,
+            "share" : 0
+          },
+          "name" : "explorer.exe",
+          "pid" : 14172,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoYDGpxQgsFgZ9b",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.550Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe\" /onboot",
+          "cpu" : {
+            "user" : 66609,
+            "user_p" : 0,
+            "system" : 121093,
+            "total" : 187702,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 10457088,
+            "rss" : 28250112,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "IDMan.exe",
+          "pid" : 3232,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9f",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.589Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Hewlett-Packard\\HP CoolSense\\CoolSense.exe\" /byrunkey",
+          "cpu" : {
+            "user" : 78,
+            "user_p" : 0,
+            "system" : 234,
+            "total" : 312,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 2367488,
+            "rss" : 192512,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "CoolSense.exe",
+          "pid" : 13292,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9g",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.598Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Hewlett-Packard\\HP System Event\\HPMSGSVC.exe\" ",
+          "cpu" : {
+            "user" : 31,
+            "user_p" : 0,
+            "system" : 46,
+            "total" : 77,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 1470464,
+            "rss" : 7536640,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "HPMSGSVC.exe",
+          "pid" : 5372,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9l",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.647Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\WINDOWS\\system32\\SettingSyncHost.exe -Embedding",
+          "cpu" : {
+            "user" : 17578,
+            "user_p" : 0,
+            "system" : 12187,
+            "total" : 29765,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 14921728,
+            "rss" : 3182592,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "SettingSyncHost.exe",
+          "pid" : 4152,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9n",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.668Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "C:\\Windows\\System32\\SystemSettingsBroker.exe -Embedding",
+          "cpu" : {
+            "user" : 15,
+            "user_p" : 0,
+            "system" : 15,
+            "total" : 30,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 2097152,
+            "rss" : 11841536,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "SystemSettingsBroker.exe",
+          "pid" : 12040,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9o",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.677Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe\" --started-from-file \"C:\\Users\\Sumit\\Downloads\\IDM Downloads\\London Has Fallen (2016) HC HDRip Dual Audio 720p.mkv\"",
+          "cpu" : {
+            "user" : 17359,
+            "user_p" : 0.0109,
+            "system" : 3234,
+            "total" : 20593,
+            "start_time" : "Sep26"
+          },
+          "mem" : {
+            "size" : 134684672,
+            "rss" : 41795584,
+            "rss_p" : 0.01,
+            "share" : 0
+          },
+          "name" : "vlc.exe",
+          "pid" : 7816,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQjHWoZDGpxQgsFgZ9z",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T07:26:50.790Z",
+        "beat" : {
+          "hostname" : "king",
+          "name" : "king"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" --type=renderer --enable-features=AutomaticTabDiscarding<AutomaticTabDiscarding,WebFontsIntervention<WebFontsIntervention --disable-features=UpdateRendererPriorityOnStartup<UpdateRendererPriorityOnStartup --lang=en-GB --force-fieldtrials=AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_10-gen2/CaptivePortalInterstitial/Enabled/*ChildAccountDetection/Disabled/*ClientSideDetectionModel/Model0/*CrossDevicePromo/28DaySingleProfile/*DataReductionProxyConfigService/Enabled/*DirectWriteFontProxy/UseDirectWriteFontProxy/*ExtensionActionRedesign/Enabled/ExtensionDeveloperModeWarning/Enabled/*ExtensionInstallVerification/Enforce/*GFE/CrimePaddingControl/InstanceID/Enabled/IntelligentSessionRestore/Enabled2/MaterialDesignDownloads/Enabled/*NetworkQualityEstimator/Enabled/*OmniboxBundledExperimentV1/Unused_2/PasswordBranding/Disabled/*PasswordGeneration/Disabled/PreRead/Default/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Launch50pct_11011_1_1_10/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SRTPromptFieldTrial/On/SSLCommonNameMismatchHandling/Disabled/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/*TriggeredResetFieldTrial/On/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-1-Percent/group_16/*UMA-Uniformity-Trial-10-Percent/group_06/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/group_02/*UMA-Uniformity-Trial-5-Percent/group_16/*UMA-Uniformity-Trial-50-Percent/group_01/*UseDelayAgnosticAEC/DefaultEnabled/WebFontsIntervention/Enabled/WebRTC-LocalIPPermissionCheck/Enabled/WebRTC-PeerConnectionDTLS1.2/Enabled/ --extension-process --enable-webrtc-hw-h264-encoding --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --blink-settings=fetchDeferLateScripts=true,fetchIncreaseFontPriority=true,fetchIncreasePriorities=true --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --content-image-texture-target=3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553,3553 --video-image-texture-target=3553 --channel=\"10852.7.1414074559\\447356446\" /prefetch:1",
+          "cpu" : {
+            "user" : 250,
+            "user_p" : 0,
+            "system" : 125,
+            "total" : 375,
+            "start_time" : "Sep27"
+          },
+          "mem" : {
+            "size" : 24334336,
+            "rss" : 18259968,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "chrome.exe",
+          "pid" : 7304,
+          "ppid" : 0,
+          "state" : "running",
+          "username" : "KING\\Sumit"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
